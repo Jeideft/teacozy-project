@@ -1,0 +1,200 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: helvetica;
+  opacity: 0.9;
+  margin: 0;
+  color: seashell;
+}
+
+.header {
+  position: fixed;
+  color: seashell;
+  font-size: 22px;
+  border-bottom: 1px solid seashell;
+  border-width: 100%;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  font-family: helvetica;
+  z-index: 10;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 2;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.logo p {
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 20px;
+  justify-content: space-between;
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  padding-top: 70px;
+  color: seashell;
+  opacity: 0.9;
+  z-index: 5;
+  font-style: helvetica;
+  border-bottom: 20px solid black;
+  border-left: 20px solid black;
+  border-right: 20 solid black;
+}
+
+.mission {
+  align-content: center;
+  background-image: "resources/images/img-mission-background.jpg">
+}
+
+.mission-img {
+  padding-top: 250px;
+}
+
+.img-text {
+  padding-top: 1px;
+  background-color: black;
+  line-height: 0.7;
+}
+
+.main {
+  display: block;
+  height: 700px;
+  width: auto;
+
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h4 {
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+.tea {
+  height: 120px;
+}
+
+.images {
+  display: flex;
+  font-size: 22px;
+  height: auto;
+  opacity: 0.9;
+  padding-left: 100px;
+  padding-right: 150px;
+}
+
+.images2 {
+  display: flex;
+  font-size: 22px;
+  height: auto;
+  opacity: 0.9;
+  align-content: center;
+  padding-left: 250px;
+  padding-right: 300px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.direction {
+  display: inline-flex;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 15px;
+}
+
+.# {
+  font-weight: bold;
+}
+
+.locale {
+  margin: auto;
+  width: 1000px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cube {
+  display: flex;
+  opacity: 1.0;
+  margin: 5px 5px;
+  line-height: 1.4;
+  justify-content: center;
+  background-color: black;
+  flex-grow: 2 300px;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 25px;
+}
+
+.item1 {
+  text-align: center;
+  width: 300px;
+}
+
+.third {
+  height: 500px;
+}
+
+.box {
+  padding-top: 50px;
+}
+
+.last {
+height: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.copyright {
+  text-align: left;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.footer {
+height: 200px;
+}
+
+.footer h2 {
+}
